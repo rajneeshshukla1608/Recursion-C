@@ -9,7 +9,7 @@ int factorial(int n){
  int lap = 1, i;
     for (i = 2; i <= n; i++)
         lap *= i;
-    return res;
+    return lap;
 }
 
 int main(void){
