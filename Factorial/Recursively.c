@@ -1,22 +1,21 @@
-/*
-Recursive method of factorial of a given number 
-*/
+/*factorial of a given number */
+
 #include<stdio.h>
-#include<cs50.h>
 
 int factorial(int n){
- 
-    if (n == 0)
-        return 0;
-    return n * factorial(n - 1);
+     if(n<=1){
+      return 1;
+     }else{
+       return n*factorial(n-1);
+     }
+
 }
 
-int main(void){
-    
-    int n, s;
-    scanf("%d", &n);
-    
-    s = factorial(n);
-    
-    printf(" your factorial of the fiven number using recursuve method is  = %d", s);
+int main(){
+  int n, s;
+  scanf("%d", &n);
+
+ s =  factorial(n);
+ printf("%d", s);
+ return 0;
 }
