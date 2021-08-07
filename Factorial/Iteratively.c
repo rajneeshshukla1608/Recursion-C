@@ -21,3 +21,4 @@ int main(void){
     printf(" your iterative method of finding the fctorial is %d", s);
     
 }
+ 
