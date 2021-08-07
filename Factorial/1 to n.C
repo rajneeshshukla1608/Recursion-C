@@ -1,25 +1,23 @@
-/*recursion problem of 1 to n and n to 1*/
+/*recursion problem of 1 to n */
 
 #include<stdio.h>
 #include<cs50.h>
 
-int number(int k)
+void number(int k)
 {   
-    int n=1;
-    while(n<k){
-        printf("%d", n);
-        n++;
-    }
-    return n;
 
+    if(k<=0){
+    return;
+}
+    number(k - 1);
+    printf("%d",k);
 }
 
 int main(void){
     int n, i, recieved;
     printf("Enter the number till to go");
     scanf("%d", &n);
-    recieved = number(n);
-    printf("%d", recieved);
+    number(n);
     
     return 0;
 }
