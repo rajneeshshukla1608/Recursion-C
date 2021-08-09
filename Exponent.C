@@ -1,3 +1,5 @@
+/*This repo consist of exponent problem in recursion with two mwthodss one for even and odd and second in direct for every number even or odd*/
+//Method 1-
 #include<stdio.h>
 #include<conio.h>
 int expo(int e){
@@ -12,8 +14,8 @@ int expo(int e){
      return result*result*2;
    }
 
-
-     /* if(e==0){
+      //Method 2-
+      /* if(e==0){
       return 1;
       }else{
       return 2*expo(e-1);
