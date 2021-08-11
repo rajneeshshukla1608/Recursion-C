@@ -1,4 +1,5 @@
-/*recursion problem of 1 to n*/
+/*Recursion problem of 1 to n*/
+
 
 #include<stdio.h>
 void number(int k)
