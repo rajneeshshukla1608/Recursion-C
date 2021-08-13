@@ -2,7 +2,6 @@
 and  respectively, you have to output the nth term of the series using recursion.*/
 #include <stdio.h>
 int find_nth_term(int n, int a, int b, int c) {
-  //Write your code here.
    if(n == 1) return a;
     if(n == 2) return b;
     if(n == 3) return c;
