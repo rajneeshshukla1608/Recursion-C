@@ -3,7 +3,6 @@ Iterative method of factorial of any given number iteratively
 */
 
 #include<stdio.h>
-#include<cs50.h>
 
 int factorial(int n){
  int lap = 1, i;
