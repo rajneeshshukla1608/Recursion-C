@@ -22,6 +22,4 @@ int main(){
    spell(n);
    getch();
    return 0;
-
-
 }
